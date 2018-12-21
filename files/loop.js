@@ -1,0 +1,1 @@
+let names = ['name1', 'name2', 'name3'];names.forEach(name => console.log(name));
