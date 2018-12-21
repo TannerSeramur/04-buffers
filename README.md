@@ -40,5 +40,6 @@
   * call `node convet2html.js` then call `open pair-programming.html` should render out html page 
 
 
-#### UML
+#### Kona
 ![](assets/kona-pup.png)
+=================================================
