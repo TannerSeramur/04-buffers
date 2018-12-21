@@ -1,42 +1,44 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 04: Buffers
 
-### Author: Student/Group Name
+### Author: Tanner Seramur
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/TannerSeramur/04-buffers)
+* [travis](https://www.travis-ci.com/TannerSeramur/04-buffers)
+
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `convert2html.js`
+#### `loop.js`
+#### `buffer.js
 
-###### `foo(thing) -> string`
-Usage Notes or examples
 
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Assignment 1:
+  * `node buffer.js`
+  * Endpoint: 
+    * Creates loop.js
+    * Creates lo 
+  * `node loop.js`
+  * Endpoint: 
+    * logs each name in the array
+* Assignment 2
+  * `node convert2html.js`
+  * Endpoint: 
+    * Take the `.txt` file that was given and converts it to a `html` file. 
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* Assignment 1:
+  * Make sure `loop.js` is not in file directory, if it is delete it. 
+  * call `node buffer.js` then call `node loop.js` should log out 3 names
+* Assignment 2:
+  * Make sure `pair-programming.html` is not in file directory, if it is delete it. 
+  * call `node convet2html.js` then call `open pair-programming.html` should render out html page 
+
 
 #### UML
-Link to an image of the UML for your application and response to events
+![](assets/kona-pup.png)

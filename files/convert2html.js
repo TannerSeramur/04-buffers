@@ -39,7 +39,7 @@ function updateFile(file, stringifyBuffer) {
        
         let finalStr = newData.map(e => e.join('')).join('\n');
         
-      fs.writeFile(file, `${tagArr[0]}${finalStr}${tagArr[1]}`, function (err) {
+      fs.writeFile('./pair-programming.html', `${tagArr[0]}${finalStr}${tagArr[1]}`, function (err) {
         if(err){throw err};
         console.log('Converted to html');
       });
