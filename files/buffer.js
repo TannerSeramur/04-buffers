@@ -10,7 +10,7 @@ let arr = [nameArr, myFunc];
 let buff = Buffer.concat(arr);
 
 
-fs.writeFile('./files/loop.js', buff , err => {
+fs.writeFile('./loop.js', buff , err => {
   if (err) {throw err; }
   console.log('created file');
 });

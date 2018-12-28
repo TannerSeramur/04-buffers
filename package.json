@@ -1,0 +1,23 @@
+{
+  "name": "04-buffers",
+  "version": "1.0.0",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB =================================================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TannerSeramur/04-buffers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TannerSeramur/04-buffers/issues"
+  },
+  "homepage": "https://github.com/TannerSeramur/04-buffers#readme",
+  "dependencies": {
+    "eslint": "^5.11.1",
+    "jest": "^23.6.0"
+  }
+}
